@@ -23,9 +23,9 @@
                 <label>Год: @m.Year</label><br />
                 <p>Описание: @m.Description</p>
 
-                <a asp-action="Edit" asp-route-id="@m.Id">Редактирование</a> |
-                <a asp-action="Details" asp-route-id="@m.Id">Подробности</a> |
-                <a asp-action="Delete" asp-route-id="@m.Id">Удаление</a>
+                <a asp-page="Edit" asp-route-id="@m.Id">Редактирование</a> |
+                <a asp-page="Details" asp-route-id="@m.Id">Подробности</a> |
+                <a asp-page="Delete" asp-route-id="@m.Id">Удаление</a>
             </div>
 
 
